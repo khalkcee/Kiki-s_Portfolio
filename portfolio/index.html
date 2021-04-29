@@ -14,7 +14,7 @@
     <!-- box icons -->
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 
-
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo_png.png">
 
     <title>PORTFOLIO</title>
 </head>
@@ -432,15 +432,23 @@
             <span class="section-subtitle ">Leave a message for Me</span>
 
             <div class="contact_container bd-grid ">
-                <form method="POST " data-nelify="true " class="contact_form ">
+                <form action="POST " data-nelify="true " class="contact_form ">
                     <div class="contact_inputs ">
                         <input type="text " class="contact_input " placeholder="Name ">
                         <input type="text " class="contact_input " placeholder="Email ">
                     </div>
-                    <input type="text " text=" " class="contact_input " placeholder="Project ">
+                    <input type="text " text=" " class="contact_input " placeholder="Subject ">
                     <textarea name=" " id=" " cols="0 " rows="10 " placeholder="Message " class="contact_input "></textarea>
 
-                    <input type="text " submit=" " class="button contact_button " value="Send Message ">
+
+
+                    <div data-netlify-recaptcha="true"></div>
+
+
+                    <button type="submit" class="button contact_button">Send</button>
+
+
+
                 </form>
 
             </div>

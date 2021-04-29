@@ -752,8 +752,8 @@ nav .items .item:hover {
     width: 100%;
     padding: 1rem;
     outline: none;
-    border: none;
-    background-color: rgb(204, 204, 204);
+    border: 3px solid gray;
+    background: none;
     font-size: var(--normal-font-size);
     margin-bottom: var(--mb-2);
     border-radius: .5rem;
