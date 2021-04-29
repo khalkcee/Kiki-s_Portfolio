@@ -44,10 +44,3 @@ function scrollActive() {
 
     })
 }
-
-
-
-// image filter section
-
-const filterItem = document.querySelector(".items");
-const filterImage = document.querySelector(".image");
